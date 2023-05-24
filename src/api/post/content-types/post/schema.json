@@ -4,7 +4,7 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-    "displayName": "post",
+    "displayName": "Post",
     "description": ""
   },
   "options": {
@@ -23,18 +23,18 @@
         "audios"
       ]
     },
-    "section": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::section.section"
+    "Description": {
+      "type": "text"
     },
     "userlist": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
     },
-    "Description": {
-      "type": "text"
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section.section"
     },
     "comments": {
       "type": "relation",
