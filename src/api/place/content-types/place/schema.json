@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "places",
+  "info": {
+    "singularName": "place",
+    "pluralName": "places",
+    "displayName": "Place",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "source": {
+      "type": "string"
+    },
+    "Destination": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "integer"
+    },
+    "seat": {
+      "type": "integer"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "images": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::image.image"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimages",
+  "info": {
+    "singularName": "testimage",
+    "pluralName": "testimages",
+    "displayName": "Testimage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

@@ -4,7 +4,7 @@
   "info": {
     "singularName": "userlist",
     "pluralName": "userlists",
-    "displayName": "userlist",
+    "displayName": "Userlist",
     "description": ""
   },
   "options": {
@@ -24,9 +24,9 @@
       "required": false,
       "allowedTypes": [
         "images",
+        "files",
         "videos",
-        "audios",
-        "files"
+        "audios"
       ]
     },
     "posts": {
